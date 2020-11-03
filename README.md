@@ -2,7 +2,7 @@
 
 Easy to use beautiful buttons in pygame.
 
-Русская версия: [a relative link](README-rus.md).
+[Русская версия](README-rus.md)
 
 There is only one class Button. The simpliest example is:
 
@@ -47,4 +47,4 @@ To check if given point is inside the button, use 'in' operator:
 if (x, y) in button: ...
 ```
 
-For more complicated example see [a relative link](example.py).
+For more complicated example see [example.py](example.py).
