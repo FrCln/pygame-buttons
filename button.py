@@ -91,7 +91,7 @@ class Button:
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
 
     def __repr__(self):
-        return f'<Button "{self.text}" at ({self.x}, {self.y})'
+        return f'<Button "{self.text}" at ({self.x}, {self.y})>'
 
     def __contains__(self, point: Tuple[int]):
         return self.rect.collidepoint(point)
