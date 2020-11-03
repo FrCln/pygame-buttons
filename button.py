@@ -7,7 +7,7 @@ from pygame.font import SysFont, get_default_font
 def _round_rect(surface, rect, color, radius=None):
     trans = (255, 255, 1)
     if not radius:
-        pygame.draw.rect(surface, color, rect, thick)
+        pygame.draw.rect(surface, color, rect)
         return
 
     radius = min(radius, rect.width/2, rect.height/2)
