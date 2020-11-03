@@ -45,4 +45,4 @@ handle_events(event_list): обрабатывает список событий
 if (x, y) in button: ...
 ```
 
-Более подробный пример см. в файле [a relative link](example.py).
+Более подробный пример см. в файле [example.py](example.py).
