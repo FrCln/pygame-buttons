@@ -40,7 +40,7 @@ clicked_color: цвет кнопки при щелчке
 
 border_color, border_width, border_radius - параметры рамки
 
-font: text шрифт, объект pygame.font.Font, по умолчанию Courier New 20
+font: шрифт, объект pygame.font.Font, по умолчанию Courier New 20
 
 font_color: по умолчанию черный
 
